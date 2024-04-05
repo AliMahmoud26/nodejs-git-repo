@@ -7,3 +7,9 @@ console.log(newItems)
 console.log(items)
 
 console.log('Hello world');
+
+
+// Stream - Big file
+const {createReadStream} = require('fs')
+
+const strean = createReadStream('./content/big.txt')
